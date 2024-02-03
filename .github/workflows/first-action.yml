@@ -8,5 +8,9 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "Done - bye!"
+      - name: Run multiple steps
+        run: |
+          ls -l .
+          whoami
       
   
